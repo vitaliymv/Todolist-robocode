@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 50vw;
+    margin: 20px auto;
+}
+
+#noteInput {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#noteInput input[type="text"],
+#noteInput textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#noteInput button {
+    font-size: 16px;
+}
+#noteList {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.note {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.note h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.note p {
+    margin-bottom: 5px;
+}
+
+.note button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.note button:hover {
+    opacity: 0.8;
+}
+
+#noteList div {
+    padding: 10px;
+    background: lightgray;
+    margin-bottom: 10px;
+}
+
+.archived {
+    background: rgb(163, 216, 163) !important;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-primary {
+    background: rgb(83, 83, 227);
+}
+
+.btn-primary:hover {
+    background: rgb(50, 50, 227);
+}
+
+.btn-warning {
+    background: rgb(227, 177, 83);
+}
+
+.btn-warning:hover {
+    background: rgb(192, 137, 35);
+}
+
+.btn-danger {
+    background: rgb(245, 88, 71);
+}
+
+.btn-danger:hover {
+    background: rgb(174, 52, 39);
+}
